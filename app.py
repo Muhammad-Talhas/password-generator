@@ -74,6 +74,6 @@ use_special_chars = st.checkbox("Include Special Characters")
 if st.button("Generate Password"):
     password = generate_password(length, use_digits, use_special_chars)
     st.markdown(f'<div class="generated-password">{password}</div>', unsafe_allow_html=True)
-
+# My Repo link
 st.write("---")
 st.write("✨ Built by [Muhammad Talha](https://github.com/Muhammad-Talhas) ✨")
